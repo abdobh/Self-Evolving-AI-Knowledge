@@ -718,6 +718,14 @@
             "linked_to": [
                 "add_value"
             ]
+        },
+        "string_manipulation_rule_from_search": {
+            "type": "string_manipulation",
+            "values": [],
+            "linked_to": [],
+            "source": "external_search",
+            "confidence": 70,
+            "last_verified": "2025-08-25T00:08:28.185760"
         }
     }
 }
