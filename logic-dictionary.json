@@ -472,6 +472,10 @@
         {
             "rule_name": "add_value",
             "value": 101
+        },
+        {
+            "rule_name": "multiply_value",
+            "value": 4
         }
     ]
 }
