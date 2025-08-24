@@ -412,6 +412,10 @@
         {
             "rule_name": "add_value",
             "value": 60
+        },
+        {
+            "rule_name": "add_value",
+            "value": 12
         }
     ]
 }
