@@ -705,6 +705,7 @@
             "rule_name": "divide_value",
             "values": [
                 2,
+                3,
                 5
             ]
         },
