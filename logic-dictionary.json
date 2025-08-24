@@ -679,7 +679,8 @@
             "rule_name": "add_value",
             "values": [
                 1,
-                50
+                50,
+                89
             ]
         },
         {
