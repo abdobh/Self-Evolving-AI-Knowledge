@@ -678,6 +678,7 @@
         {
             "rule_name": "add_value",
             "values": [
+                -21,
                 -2,
                 1,
                 2,
