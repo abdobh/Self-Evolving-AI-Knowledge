@@ -668,6 +668,10 @@
         {
             "rule_name": "add_value",
             "value": -1
+        },
+        {
+            "rule_name": "divide_value",
+            "value": 3
         }
     ]
 }
