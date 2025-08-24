@@ -195,6 +195,10 @@
         "dynamic_programming": {
             "type": "dynamic_programming",
             "blueprint": "Break a problem into overlapping subproblems, solve each once, and store the result to avoid re-computation (memoization)."
+        },
+        "search_and_optimization": {
+            "type": "search_and_optimization",
+            "blueprint": "Use a priority queue and a heuristic function to find the optimal path in a weighted graph."
         }
     }
 }
