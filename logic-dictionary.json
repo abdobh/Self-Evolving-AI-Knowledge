@@ -699,7 +699,8 @@
         {
             "rule_name": "power_value",
             "values": [
-                2
+                2,
+                3
             ]
         }
     ]
