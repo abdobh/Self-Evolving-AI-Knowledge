@@ -680,11 +680,12 @@
             "values": [
                 34,
                 79,
-                89
+                89,
+                146
             ],
             "source": "legacy_conversion",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:08:53.212656",
+            "last_verified": "2025-08-25T00:09:05.654119",
             "linked_to": [
                 "multiply_value",
                 "divide_value",
