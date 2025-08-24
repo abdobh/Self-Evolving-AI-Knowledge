@@ -680,6 +680,12 @@
             "values": [
                 1
             ]
+        },
+        {
+            "rule_name": "multiply_value",
+            "values": [
+                4
+            ]
         }
     ]
 }
