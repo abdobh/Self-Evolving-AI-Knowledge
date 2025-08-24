@@ -22,6 +22,7 @@
             "type": "mathematical",
             "values": [
                 -46,
+                -21,
                 -3,
                 4,
                 5,
@@ -34,7 +35,7 @@
             "linked_to": [],
             "source": "internal_reasoning",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:45:52.273603"
+            "last_verified": "2025-08-25T00:46:48.390764"
         },
         "wikidata_relation_P17": {
             "type": "geographical",
