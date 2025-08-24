@@ -512,6 +512,10 @@
         {
             "rule_name": "add_value",
             "value": 42
+        },
+        {
+            "rule_name": "power_value",
+            "value": 3
         }
     ]
 }
