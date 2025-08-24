@@ -644,6 +644,10 @@
         {
             "rule_name": "multiply_value",
             "value": 4
+        },
+        {
+            "rule_name": "multiply_value",
+            "value": 17
         }
     ]
 }
