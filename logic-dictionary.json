@@ -165,6 +165,14 @@
             "source": "self_algorithm_generation",
             "confidence": 75,
             "last_verified": "2025-08-25T01:47:43.984034"
+        },
+        "self_built_algorithm_prim_mst": {
+            "type": "prim_mst",
+            "value": "\nimport heapq\n\n# خوارزمية بريم (Prim's Algorithm) تم توليدها ذاتيًا لإيجاد شجرة الامتداد الدنيا (MST)\ndef prim_mst(graph, start_node):\n    mst = []\n    visited = {}\n    min_heap = [(0, start_node, None)] # (weight, node, parent)\n\n    while min_heap:\n        weight, current_node, parent = heapq.heappop(min_heap)\n\n        if current_node in visited:\n            continue\n\n        visited[current_node] = True\n        \n        if parent is not None:\n            mst.append((parent, current_node, weight))\n\n        for neighbor, edge_weight in graph.get(current_node, []):\n            if neighbor not in visited:\n                heapq.heappush(min_heap, (edge_weight, neighbor, current_node))\n    \n    # تحويل قائمة المسارات إلى تنسيق أبسط (node1, node2)\n    simple_mst = [(edge[0], edge[1]) for edge in mst]\n    return simple_mst\n\n# مثال على الاستخدام:\nmy_graph = {'A': [('B', 2), ('C', 3)], 'B': [('A', 2), ('C', 4), ('D', 5)], 'C': [('A', 3), ('B', 4), ('D', 1)], 'D': [('B', 5), ('C', 1)]}\nstart = 'A'\nmst_edges = prim_mst(my_graph, start)\nprint(f\"الرسم البياني: {my_graph}\")\nprint(f\"شجرة الامتداد الدنيا (باستخدام بريم) هي: {mst_edges}\")\n",
+            "linked_to": [],
+            "source": "self_algorithm_generation",
+            "confidence": 95,
+            "last_verified": "2025-08-25T01:47:55.711645"
         }
     },
     "meta_rules": {
