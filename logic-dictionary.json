@@ -496,6 +496,10 @@
         {
             "rule_name": "multiply_value",
             "value": 2
+        },
+        {
+            "rule_name": "power_value",
+            "value": 3
         }
     ]
 }
