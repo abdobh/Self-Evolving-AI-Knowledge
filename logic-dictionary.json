@@ -680,6 +680,7 @@
             "values": [
                 25,
                 34,
+                43,
                 61,
                 67,
                 71,
@@ -700,7 +701,7 @@
             ],
             "source": "legacy_conversion",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:34:15.205144",
+            "last_verified": "2025-08-25T00:34:31.789466",
             "linked_to": [
                 "multiply_value",
                 "divide_value",
