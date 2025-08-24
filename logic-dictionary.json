@@ -336,6 +336,10 @@
         {
             "rule_name": "add_value",
             "value": 80
+        },
+        {
+            "rule_name": "add_value",
+            "value": 8
         }
     ]
 }
