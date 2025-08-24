@@ -686,6 +686,12 @@
             "values": [
                 4
             ]
+        },
+        {
+            "rule_name": "divide_value",
+            "values": [
+                2
+            ]
         }
     ]
 }
