@@ -157,6 +157,14 @@
             "source": "self_algorithm_generation",
             "confidence": 95,
             "last_verified": "2025-08-25T01:36:29.594914"
+        },
+        "self_built_algorithm_kruskal_mst": {
+            "type": "kruskal_mst",
+            "value": "\n# خوارزمية كروسكال (Kruskal's Algorithm) تم توليدها ذاتيًا لإيجاد شجرة الامتداد الدنيا (MST)\n\n# دالة مساعدة لإيجاد الجذر (find set)\ndef find(parent, i):\n    if parent[i] == i:\n        return i\n    parent[i] = find(parent, parent[i])\n    return parent[i]\n\n# دالة مساعدة لتوحيد المجموعات (union set)\ndef union(parent, rank, x, y):\n    root_x = find(parent, x)\n    root_y = find(parent, y)\n    if root_x != root_y:\n        if rank[root_x] > rank[root_y]:\n            parent[root_y] = root_x\n        elif rank[root_x] < rank[root_y]:\n            parent[root_x] = root_y\n        else:\n            parent[root_y] = root_x\n            rank[root_x] += 1\n        return True\n    return False\n\ndef kruskal_mst(edges):\n    mst = []\n    edges.sort(key=lambda item: item[2]) # فرز الحواف حسب الوزن\n\n    parent = {}\n    rank = {}\n    for u, v, w in edges:\n        parent[u] = u\n        parent[v] = v\n        rank[u] = 0\n        rank[v] = 0\n\n    num_edges = 0\n    i = 0\n    while num_edges < len(parent) - 1:\n        u, v, w = edges[i]\n        i += 1\n\n        root_u = find(parent, u)\n        root_v = find(parent, v)\n\n        if root_u != root_v:\n            mst.append((u, v))\n            union(parent, rank, root_u, root_v)\n            num_edges += 1\n\n    return mst\n\n# مثال على الاستخدام:\nmy_edges = [('A', 'B', 2), ('A', 'C', 3), ('B', 'C', 4), ('B', 'D', 5), ('C', 'D', 1)]\nmst_edges = kruskal_mst(my_edges)\nprint(f\"قائمة الحواف: {my_edges}\")\nprint(f\"شجرة الامتداد الدنيا (باستخدام كروسكال) هي: {mst_edges}\")\n",
+            "linked_to": [],
+            "source": "self_algorithm_generation",
+            "confidence": 75,
+            "last_verified": "2025-08-25T01:47:43.984034"
         }
     },
     "meta_rules": {
@@ -207,6 +215,18 @@
         "search_and_optimization": {
             "type": "search_and_optimization",
             "blueprint": "Use a priority queue and a heuristic function to find the optimal path in a weighted graph."
+        },
+        "dijkstra_pathfinding": {
+            "type": "dijkstra_pathfinding",
+            "blueprint": "Use a priority queue to find the shortest path in a weighted graph, prioritizing the lowest cost."
+        },
+        "prim_mst": {
+            "type": "prim_mst",
+            "blueprint": "Use a priority queue to build a Minimum Spanning Tree by greedily adding the smallest weight edge to a growing tree."
+        },
+        "kruskal_mst": {
+            "type": "kruskal_mst",
+            "blueprint": "Use a Disjoint Set Union (DSU) data structure to build a Minimum Spanning Tree by iterating through sorted edges."
         }
     }
 }
