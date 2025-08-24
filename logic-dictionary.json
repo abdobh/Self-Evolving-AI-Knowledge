@@ -701,7 +701,8 @@
         {
             "rule_name": "divide_value",
             "values": [
-                2
+                2,
+                5
             ]
         },
         {
