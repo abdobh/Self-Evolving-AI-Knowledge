@@ -344,6 +344,10 @@
         {
             "rule_name": "subtract_value",
             "value": 12
+        },
+        {
+            "rule_name": "subtract_value",
+            "value": 30
         }
     ]
 }
