@@ -592,6 +592,10 @@
         {
             "rule_name": "add_value",
             "value": 146
+        },
+        {
+            "rule_name": "divide_value",
+            "value": 2
         }
     ]
 }
