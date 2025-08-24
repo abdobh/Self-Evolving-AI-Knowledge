@@ -624,6 +624,10 @@
         {
             "rule_name": "add_value",
             "value": -21
+        },
+        {
+            "rule_name": "multiply_value",
+            "value": 4
         }
     ]
 }
