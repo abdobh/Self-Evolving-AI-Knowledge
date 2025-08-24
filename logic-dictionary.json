@@ -508,6 +508,10 @@
         {
             "rule_name": "add_value",
             "value": -16
+        },
+        {
+            "rule_name": "add_value",
+            "value": 42
         }
     ]
 }
