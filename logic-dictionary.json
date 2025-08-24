@@ -17,6 +17,16 @@
             "source": "open_source_db_search",
             "confidence": 80,
             "last_verified": "2025-08-25T00:41:15.076175"
+        },
+        "add_value": {
+            "type": "mathematical",
+            "values": [
+                147
+            ],
+            "linked_to": [],
+            "source": "internal_reasoning",
+            "confidence": 90,
+            "last_verified": "2025-08-25T00:41:27.571381"
         }
     }
 }
