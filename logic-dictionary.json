@@ -678,6 +678,7 @@
         "add_value": {
             "type": "general",
             "values": [
+                25,
                 34,
                 61,
                 67,
@@ -696,7 +697,7 @@
             ],
             "source": "legacy_conversion",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:33:00.994280",
+            "last_verified": "2025-08-25T00:33:16.008043",
             "linked_to": [
                 "multiply_value",
                 "divide_value",
