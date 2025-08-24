@@ -27,6 +27,16 @@
             "source": "internal_reasoning",
             "confidence": 90,
             "last_verified": "2025-08-25T00:41:27.571381"
+        },
+        "wikidata_relation_P17": {
+            "type": "geographical",
+            "values": [
+                "Tokyo -> http://www.wikidata.org/prop/direct/P17 -> Japan"
+            ],
+            "linked_to": [],
+            "source": "open_source_db_search",
+            "confidence": 80,
+            "last_verified": "2025-08-25T00:41:42.726018"
         }
     }
 }
