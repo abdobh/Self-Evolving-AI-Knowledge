@@ -260,6 +260,10 @@
         {
             "rule_name": "subtract_value",
             "value": 39
+        },
+        {
+            "rule_name": "subtract_value",
+            "value": 7
         }
     ]
 }
