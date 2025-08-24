@@ -500,6 +500,10 @@
         {
             "rule_name": "power_value",
             "value": 3
+        },
+        {
+            "rule_name": "divide_value",
+            "value": 2
         }
     ]
 }
