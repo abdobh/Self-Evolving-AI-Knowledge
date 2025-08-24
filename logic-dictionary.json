@@ -24,6 +24,7 @@
                 -46,
                 -42,
                 -37,
+                -24,
                 -23,
                 -21,
                 -16,
@@ -44,7 +45,7 @@
             "linked_to": [],
             "source": "internal_reasoning",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:51:56.405786"
+            "last_verified": "2025-08-25T00:53:04.812899"
         },
         "wikidata_relation_P17": {
             "type": "geographical",
