@@ -35,12 +35,13 @@
             "type": "geographical",
             "values": [
                 "Cairo -> http://www.wikidata.org/prop/direct/P17 -> Egypt",
+                "Paris -> http://www.wikidata.org/prop/direct/P17 -> France",
                 "Tokyo -> http://www.wikidata.org/prop/direct/P17 -> Japan"
             ],
             "linked_to": [],
             "source": "open_source_db_search",
             "confidence": 80,
-            "last_verified": "2025-08-25T00:43:22.225233"
+            "last_verified": "2025-08-25T00:43:52.430840"
         }
     }
 }
