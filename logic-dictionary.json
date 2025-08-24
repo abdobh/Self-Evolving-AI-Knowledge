@@ -252,6 +252,10 @@
         {
             "rule_name": "add_value",
             "value": 59
+        },
+        {
+            "rule_name": "add_value",
+            "value": 38
         }
     ]
 }
