@@ -488,6 +488,10 @@
         {
             "rule_name": "add_value",
             "value": 117
+        },
+        {
+            "rule_name": "multiply_value",
+            "value": 5
         }
     ]
 }
