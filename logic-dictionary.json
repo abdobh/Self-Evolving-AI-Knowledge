@@ -160,6 +160,10 @@
         {
             "rule_name": "add_value",
             "value": 35
+        },
+        {
+            "rule_name": "add_value",
+            "value": 4
         }
     ]
 }
