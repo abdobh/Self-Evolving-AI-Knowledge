@@ -22,13 +22,14 @@
             "type": "mathematical",
             "values": [
                 -3,
+                27,
                 48,
                 147
             ],
             "linked_to": [],
             "source": "internal_reasoning",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:42:37.308037"
+            "last_verified": "2025-08-25T00:43:05.054534"
         },
         "wikidata_relation_P17": {
             "type": "geographical",
