@@ -660,6 +660,10 @@
         {
             "rule_name": "add_value",
             "value": 2
+        },
+        {
+            "rule_name": "add_value",
+            "value": 2
         }
     ]
 }
