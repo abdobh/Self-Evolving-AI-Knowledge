@@ -492,6 +492,10 @@
         {
             "rule_name": "multiply_value",
             "value": 5
+        },
+        {
+            "rule_name": "multiply_value",
+            "value": 2
         }
     ]
 }
