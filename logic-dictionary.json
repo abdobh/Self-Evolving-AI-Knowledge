@@ -692,6 +692,12 @@
             "values": [
                 2
             ]
+        },
+        {
+            "rule_name": "power_value",
+            "values": [
+                2
+            ]
         }
     ]
 }
