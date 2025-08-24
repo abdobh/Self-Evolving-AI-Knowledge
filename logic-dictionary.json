@@ -384,6 +384,10 @@
         {
             "rule_name": "add_value",
             "value": 48
+        },
+        {
+            "rule_name": "add_value",
+            "value": 11
         }
     ]
 }
