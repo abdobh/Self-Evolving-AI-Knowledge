@@ -520,6 +520,10 @@
         {
             "rule_name": "add_value",
             "value": 46
+        },
+        {
+            "rule_name": "add_value",
+            "value": 5
         }
     ]
 }
