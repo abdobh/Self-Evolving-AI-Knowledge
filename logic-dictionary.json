@@ -620,6 +620,10 @@
         {
             "rule_name": "add_value",
             "value": -27
+        },
+        {
+            "rule_name": "add_value",
+            "value": -21
         }
     ]
 }
