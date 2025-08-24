@@ -480,6 +480,10 @@
         {
             "rule_name": "power_value",
             "value": 3
+        },
+        {
+            "rule_name": "add_value",
+            "value": 29
         }
     ]
 }
