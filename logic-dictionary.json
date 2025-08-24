@@ -674,62 +674,50 @@
             "value": 3
         }
     ],
-    "rules": [
-        {
-            "rule_name": "add_value",
+    "rules": {
+        "add_value": {
+            "type": "general",
             "values": [
-                -21,
-                -13,
-                -2,
-                1,
-                2,
-                13,
-                14,
-                25,
-                26,
-                32,
-                40,
-                45,
-                50,
-                53,
-                57,
-                58,
-                60,
-                62,
-                65,
-                75,
-                82,
-                89,
-                126,
-                127,
-                128,
-                138,
-                146
+                34
+            ],
+            "source": "legacy_conversion",
+            "confidence": 90,
+            "last_verified": "2025-08-25T00:08:14.937415",
+            "linked_to": [
+                "multiply_value",
+                "divide_value",
+                "power_value"
             ]
         },
-        {
-            "rule_name": "multiply_value",
-            "values": [
-                2,
-                4,
-                10
+        "multiply_value": {
+            "type": "general",
+            "values": [],
+            "source": "legacy_conversion",
+            "confidence": 50,
+            "last_verified": "2025-08-25T00:08:14.936322",
+            "linked_to": [
+                "add_value"
             ]
         },
-        {
-            "rule_name": "divide_value",
-            "values": [
-                2,
-                3,
-                4,
-                5
+        "divide_value": {
+            "type": "general",
+            "values": [],
+            "source": "legacy_conversion",
+            "confidence": 50,
+            "last_verified": "2025-08-25T00:08:14.936336",
+            "linked_to": [
+                "add_value"
             ]
         },
-        {
-            "rule_name": "power_value",
-            "values": [
-                2,
-                3
+        "power_value": {
+            "type": "general",
+            "values": [],
+            "source": "legacy_conversion",
+            "confidence": 50,
+            "last_verified": "2025-08-25T00:08:14.936346",
+            "linked_to": [
+                "add_value"
             ]
         }
-    ]
+    }
 }
