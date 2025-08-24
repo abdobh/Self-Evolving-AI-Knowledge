@@ -695,6 +695,7 @@
         {
             "rule_name": "multiply_value",
             "values": [
+                2,
                 4
             ]
         },
