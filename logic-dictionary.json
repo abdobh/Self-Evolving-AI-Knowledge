@@ -678,11 +678,12 @@
         "add_value": {
             "type": "general",
             "values": [
-                34
+                34,
+                79
             ],
             "source": "legacy_conversion",
             "confidence": 90,
-            "last_verified": "2025-08-25T00:08:14.937415",
+            "last_verified": "2025-08-25T00:08:40.771734",
             "linked_to": [
                 "multiply_value",
                 "divide_value",
