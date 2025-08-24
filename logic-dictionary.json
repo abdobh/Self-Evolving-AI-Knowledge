@@ -180,6 +180,10 @@
         {
             "rule_name": "add_value",
             "value": 45
+        },
+        {
+            "rule_name": "add_value",
+            "value": 87
         }
     ]
 }
