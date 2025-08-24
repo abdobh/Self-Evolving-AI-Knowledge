@@ -456,6 +456,10 @@
         {
             "rule_name": "add_value",
             "value": 128
+        },
+        {
+            "rule_name": "add_value",
+            "value": 2
         }
     ]
 }
