@@ -388,6 +388,10 @@
         {
             "rule_name": "add_value",
             "value": 11
+        },
+        {
+            "rule_name": "add_value",
+            "value": 20
         }
     ]
 }
