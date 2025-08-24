@@ -556,6 +556,10 @@
         {
             "rule_name": "add_value",
             "value": 126
+        },
+        {
+            "rule_name": "power_value",
+            "value": 3
         }
     ]
 }
