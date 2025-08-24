@@ -148,6 +148,10 @@
         {
             "rule_name": "subtract_value",
             "value": 4
+        },
+        {
+            "rule_name": "add_value",
+            "value": 23
         }
     ]
 }
