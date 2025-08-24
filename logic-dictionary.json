@@ -596,6 +596,10 @@
         {
             "rule_name": "divide_value",
             "value": 2
+        },
+        {
+            "rule_name": "multiply_value",
+            "value": 2
         }
     ]
 }
