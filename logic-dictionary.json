@@ -84,6 +84,10 @@
         {
             "rule_name": "subtract_value",
             "value": 0
+        },
+        {
+            "rule_name": "subtract_value",
+            "value": 4
         }
     ]
 }
