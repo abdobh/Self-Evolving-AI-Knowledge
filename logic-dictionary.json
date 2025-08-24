@@ -200,6 +200,10 @@
         {
             "rule_name": "add_value",
             "value": 72
+        },
+        {
+            "rule_name": "add_value",
+            "value": 12
         }
     ]
 }
