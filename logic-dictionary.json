@@ -1,0 +1,45 @@
+{
+  "self_constructive_intelligence": {
+    "primitive_rule_protocol": {
+      "name": "بروتوكول القواعد البدائية",
+      "description": "يحتوي على أبسط العمليات المنطقية والرياضية التي يمكن للنموذج استخدامها كحجر أساس.",
+      "primitives": [
+        "increment_by_one",
+        "decrement_by_one",
+        "compare_equality",
+        "compare_less_than",
+        "check_for_symmetry",
+        "check_for_odd_even",
+        "check_for_prime"
+      ]
+    },
+    "rule_auto_composition_mechanism": {
+      "name": "آلية التكوين التلقائي للقواعد",
+      "description": "يجمع القواعد البدائية لإنشاء قواعد جديدة أكثر تعقيدًا بشكل تلقائي.",
+      "strategy": "combinatorial_rule_generation"
+    },
+    "selective_extinction_protocol": {
+      "name": "بروتوكول الانقراض الانتقائي",
+      "description": "يقوم بتقييم فعالية القواعد الجديدة، ويقضي على غير الفعالة منها ويعزز الفعالة.",
+      "strategy": "performance_based_pruning"
+    },
+    "github_synthesis_protocol": {
+      "name": "بروتوكول تركيب المعرفة من غيت هاب",
+      "description": "يحدد فجوات المعرفة، ويصيغ استعلامات برمجية، ويستخلص المنطق الأساسي من الكود لتحويله إلى قواعد جديدة.",
+      "strategy": "code_to_logic_abstraction"
+    },
+    "self_knowledge_repository": {
+      "name": "مستودع المعرفة الذاتية",
+      "description": "مستودع خاص على غيت هاب يُستخدم لتخزين جميع القواعد التي يبتكرها النموذج بشكل دائم وقابل للتوسع.",
+      "type": "github_repo"
+    },
+    "curiosity_engine": {
+      "name": "محرك الفضول",
+      "description": "يولد مشاكل وأسئلة جديدة للنموذج لحلها بشكل مستمر، مما يدفعه نحو التعلم والابتكار الذاتي.",
+      "strategy": "self_initiated_learning"
+    }
+  },
+  "complex_algorithms": [],
+  "user_examples": []
+}
+
