@@ -673,5 +673,13 @@
             "rule_name": "divide_value",
             "value": 3
         }
+    ],
+    "rules": [
+        {
+            "rule_name": "add_value",
+            "values": [
+                1
+            ]
+        }
     ]
 }
