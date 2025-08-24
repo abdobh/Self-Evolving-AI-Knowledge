@@ -420,6 +420,10 @@
         {
             "rule_name": "add_value",
             "value": 24
+        },
+        {
+            "rule_name": "add_value",
+            "value": 2
         }
     ]
 }
