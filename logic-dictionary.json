@@ -36,6 +36,10 @@
         {
             "rule_name": "subtract_value",
             "value": 47
+        },
+        {
+            "rule_name": "subtract_value",
+            "value": 12
         }
     ]
 }
