@@ -13,6 +13,10 @@
         "version_control": {
             "type": "version_control",
             "blueprint": "المفهوم: **Deriving and presenting a software project's version by checking multiple system and configuration sources.**"
+        },
+        "data_structures": {
+            "type": "data_structures",
+            "blueprint": "- الكود: `from nimblenet.activation_functions import sigmoid_function\n    from nimblenet.cost_functions import cross_entropy_cost\n    from nimblenet.learning_algorithms import RMSprop\n    from nimblenet.data_structures import Instance\n    from nimblenet.neuralnet import NeuralNet\n\n\n    dataset        = [\n        Instance( [0,0], [0] ), Instance( [1,0], [1] ), Instance( [0,1], [1] ), Instance( [1,1], [0] )\n    ]\n\n    settings       = {\n        \"n_inputs\" : 2,\n        \"layers\"   : [  (2, sigmoid_function), (1, sigmoid_function) ]\n    }\n\n    network        = NeuralNet( settings )\n    training_set   = dataset\n    test_set       = dataset\n    cost_function  = cross_entropy_cost\n\n\n    RMSprop(\n            network,           # the network to train\n            training_set,      # specify the training set\n            test_set,          # specify the test set\n            cost_function,     # specify the cost function to calculate error\n        )`\n- المفهوم: `تدريب نموذج تعلم آلة (شبكة عصبية) باستخدام خوارزمية تحسين.`"
         }
     }
 }
