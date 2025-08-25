@@ -7,6 +7,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T05:23:11.470007"
+        },
+        "self_built_algorithm_create_simple_object": {
+            "type": "create",
+            "value": "\n# A self-generated algorithm for creating an object from a class.\n# Discovered concept: المفهوم: `Supervised machine learning for predicting outcomes by learning patterns and relationships from multiple input features in labeled datasets.`\nclass Car:\n    def __init__(self, color):\n        self.color = color\nmy_car = Car(\"أحمر\")\nprint(f\"تم إنشاء كائن جديد من {my_car.__class__.__name__} بلون {my_car.color}.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T05:24:28.640500"
         }
     },
     "meta_rules": {
