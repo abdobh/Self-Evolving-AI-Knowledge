@@ -17,6 +17,10 @@
         "sorting_algorithm": {
             "type": "sorting_algorithm",
             "blueprint": "**المفهوم:** `Sequencing scattered spatial data points along a specified linear path.`"
+        },
+        "general": {
+            "type": "general",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
