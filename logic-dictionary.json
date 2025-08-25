@@ -301,6 +301,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T05:12:47.441541"
+        },
+        "self_built_algorithm_create_simple_object": {
+            "type": "create",
+            "value": "\n# A self-generated algorithm for creating an object from a class.\n# Discovered concept: المقتطف المقدم ليس مقتطف كود بايثون بالمعنى التقليدي (مثل دالة أو كلاس)، بل هو **سجل تغييرات (Changelog)** أو ملاحظات إصدار لمكتبة بايثون تسمى `fido2`.\n\n- المفهوم: `A chronological record of changes, new features, and bug fixes across a software project's versions.`\nclass Car:\n    def __init__(self, color):\n        self.color = color\nmy_car = Car(\"أحمر\")\nprint(f\"تم إنشاء كائن جديد من {my_car.__class__.__name__} بلون {my_car.color}.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T05:13:12.016082"
         }
     },
     "meta_rules": {
