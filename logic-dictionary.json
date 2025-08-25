@@ -15,6 +15,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T05:24:28.640500"
+        },
+        "self_built_algorithm_if_statement": {
+            "type": "if",
+            "value": "\n# A self-generated algorithm for a conditional statement.\n# Discovered concept: An ORM enabling seamless Pythonic manipulation and querying of JSON data stored in a relational database.\nmy_number = 30\nif my_number > 50:\n    print(\"الرقم أكبر من 50.\")\nelse:\n    print(\"الرقم ليس أكبر من 50.\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T05:25:17.824422"
         }
     },
     "meta_rules": {
