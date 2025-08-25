@@ -283,6 +283,10 @@
                     }
                 ]
             }
+        },
+        "variables": {
+            "type": "variables",
+            "blueprint": "Failed to derive an abstract concept."
         }
     }
 }
