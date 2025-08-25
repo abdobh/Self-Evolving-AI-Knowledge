@@ -325,6 +325,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T05:14:18.420778"
+        },
+        "self_built_algorithm_simple_bubble_sort": {
+            "type": "simple",
+            "value": "\n# A self-generated algorithm for a simple bubble sort.\n# Discovered concept: Implement sorting by iterating and swapping adjacent elements in a list.\ndef bubble_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        for j in range(0, n-i-1):\n            if arr[j] > arr[j+1]:\n                arr[j], arr[j+1] = arr[j+1], arr[j]\n    return arr\nmy_list = [20, 17, 45, 16, 40]\nsorted_list = bubble_sort(my_list)\nprint(f\"القائمة الأصلية: {my_list}\")\nprint(f\"القائمة بعد الفرز: {sorted_list}\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T05:15:07.420724"
         }
     },
     "meta_rules": {
