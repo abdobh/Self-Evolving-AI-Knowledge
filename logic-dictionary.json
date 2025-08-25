@@ -41,6 +41,10 @@
         "conditionals": {
             "type": "conditionals",
             "blueprint": "An ORM enabling seamless Pythonic manipulation and querying of JSON data stored in a relational database."
+        },
+        "a_star_pathfinding": {
+            "type": "a_star_pathfinding",
+            "blueprint": "- المفهوم: `Simulating and interacting with physical objects and robotic systems in a virtual environment using a physics engine.`"
         }
     }
 }
