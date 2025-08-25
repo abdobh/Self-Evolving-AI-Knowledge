@@ -251,6 +251,38 @@
         "kruskal_mst": {
             "type": "kruskal_mst",
             "blueprint": "Use a Disjoint Set Union (DSU) data structure to build a Minimum Spanning Tree by iterating through sorted edges."
+        },
+        "hanoi_towers": {
+            "type": "hanoi_towers",
+            "blueprint": {
+                "name": "hanoi_towers_logic",
+                "description": "To move N disks from source to destination, first move N-1 disks to an auxiliary tower, then move the last disk to the destination, and finally move the N-1 disks from the auxiliary tower to the destination.",
+                "components": [
+                    {
+                        "step": 1,
+                        "action": "move_disks",
+                        "count": "n-1",
+                        "from": "source",
+                        "to": "auxiliary",
+                        "using": "destination"
+                    },
+                    {
+                        "step": 2,
+                        "action": "move_disk",
+                        "count": 1,
+                        "from": "source",
+                        "to": "destination"
+                    },
+                    {
+                        "step": 3,
+                        "action": "move_disks",
+                        "count": "n-1",
+                        "from": "auxiliary",
+                        "to": "destination",
+                        "using": "source"
+                    }
+                ]
+            }
         }
     }
 }
