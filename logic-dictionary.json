@@ -351,6 +351,10 @@
         "polymorphism": {
             "type": "polymorphism",
             "blueprint": "نموذج برمجي يقوم بهيكلة الكود حول الكائنات، مغلفاً البيانات والدوال التي تعمل عليها لتحقيق النمطية وإعادة الاستخدام."
+        },
+        "inheritance": {
+            "type": "inheritance",
+            "blueprint": "- المفهوم: `A programming paradigm that organizes code into reusable, self-contained objects by combining data and their associated functionality.`"
         }
     }
 }
