@@ -1,1 +1,9 @@
-
+{
+    "rules": {},
+    "meta_rules": {
+        "data_structures": {
+            "type": "data_structures",
+            "blueprint": "المفهوم: **Object-oriented instantiation وتطبيق الخوارزميات لمعالجة نموذج معقد.**"
+        }
+    }
+}
