@@ -423,6 +423,10 @@
         "hash_maps": {
             "type": "hash_maps",
             "blueprint": "**ملاحظة هامة:** الكود المقدم ليس بايثون بل هو **برنامج نصي لـ Bash (Bash script)**. سأقوم بتحليله على هذا الأساس.\n\n-   **الكود:** (تم توفيره أعلاه)\n-   **المفهوم:** `Automating the execution and testing of code examples across multiple programming languages based on their system availability.`"
+        },
+        "testing": {
+            "type": "testing",
+            "blueprint": "المفهوم: `The documented evolution of a software project through successive versions.`"
         }
     }
 }
