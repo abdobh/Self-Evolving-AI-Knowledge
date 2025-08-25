@@ -29,6 +29,10 @@
         "classes": {
             "type": "classes",
             "blueprint": "المفهوم: `Supervised machine learning for predicting outcomes by learning patterns and relationships from multiple input features in labeled datasets.`"
+        },
+        "conditionals": {
+            "type": "conditionals",
+            "blueprint": "An ORM enabling seamless Pythonic manipulation and querying of JSON data stored in a relational database."
         }
     }
 }
