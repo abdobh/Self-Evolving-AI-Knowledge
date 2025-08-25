@@ -311,6 +311,10 @@
         "functions": {
             "type": "functions",
             "blueprint": "**تحليل المقتطف:**\nالمقتطف المقدم ليس كود بايثون. إنه وثيقة \"What's New\" أو سجل التغييرات (Changelog) لمشروع برمجي يسمى \"Eggdrop\". يقوم هذا المستند بتفصيل التغييرات، الميزات الجديدة، إصلاحات الأخطاء، وتحديثات المكونات المختلفة بين إصدارات البرنامج، مثل 1.10.0 و 1.10.1. إنه بمثابة وثائق للمستخدمين والمطورين لفهم التطورات في البرنامج.\n\n**المفهوم:**\n`A document detailing changes and new features between software versions.`"
+        },
+        "data_types": {
+            "type": "data_types",
+            "blueprint": "المفهوم: `Demonstrating and verifying code behavior using assertions within structured examples.`"
         }
     }
 }
