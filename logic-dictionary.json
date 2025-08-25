@@ -4,6 +4,10 @@
         "data_structures": {
             "type": "data_structures",
             "blueprint": "المفهوم: **Object-oriented instantiation وتطبيق الخوارزميات لمعالجة نموذج معقد.**"
+        },
+        "sorting_algorithm": {
+            "type": "sorting_algorithm",
+            "blueprint": "**المفهوم:** `Sequencing scattered spatial data points along a specified linear path.`"
         }
     }
 }
