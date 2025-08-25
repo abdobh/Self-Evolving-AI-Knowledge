@@ -435,6 +435,10 @@
         "testing": {
             "type": "testing",
             "blueprint": "المفهوم: `The documented evolution of a software project through successive versions.`"
+        },
+        "version_control": {
+            "type": "version_control",
+            "blueprint": "المفهوم: `A comprehensive set of guidelines and practices for developing high-quality, maintainable, and readable Python software.`"
         }
     }
 }
