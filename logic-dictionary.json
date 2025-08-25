@@ -471,6 +471,10 @@
         "classes": {
             "type": "classes",
             "blueprint": "المقتطف المقدم ليس مقتطف كود بايثون بالمعنى التقليدي (مثل دالة أو كلاس)، بل هو **سجل تغييرات (Changelog)** أو ملاحظات إصدار لمكتبة بايثون تسمى `fido2`.\n\n- المفهوم: `A chronological record of changes, new features, and bug fixes across a software project's versions.`"
+        },
+        "searching_algorithm": {
+            "type": "searching_algorithm",
+            "blueprint": "A nested data structure for organizing related information using key-value pairs."
         }
     }
 }
