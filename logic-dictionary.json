@@ -269,6 +269,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T05:11:04.423560"
+        },
+        "self_built_algorithm_create_simple_hashmap": {
+            "type": "create",
+            "value": "\n# A self-generated algorithm for a hash map (dictionary).\n# Discovered concept: **ملاحظة هامة:** الكود المقدم ليس بايثون بل هو **برنامج نصي لـ Bash (Bash script)**. سأقوم بتحليله على هذا الأساس.\n\n-   **الكود:** (تم توفيره أعلاه)\n-   **المفهوم:** `Automating the execution and testing of code examples across multiple programming languages based on their system availability.`\nmy_dict = {}\nmy_dict[\"fruit_1\"] = \"apple\"\nmy_dict[\"fruit_2\"] = \"banana\"\nprint(f\"My dictionary: {my_dict}\")\nprint(f\"Value for 'fruit_1': {my_dict.get('fruit_1')}\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T05:11:32.487694"
         }
     },
     "meta_rules": {
