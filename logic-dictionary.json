@@ -327,6 +327,10 @@
         "a_star_pathfinding": {
             "type": "a_star_pathfinding",
             "blueprint": "المفهوم: `Programmatically building and interacting with a physics simulation environment, including rigid bodies, soft bodies، والروبوتات.`"
+        },
+        "loops": {
+            "type": "loops",
+            "blueprint": "الكود المقدم ليس كود بايثون، بل هو نص وصفي عن منصة Ergo blockchain، على الأرجح بتنسيق Markdown. ولذلك، لا يمكن تحليل مفهوم برمجي أساسي يمثله هذا النص."
         }
     }
 }
