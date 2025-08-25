@@ -213,6 +213,14 @@
             "source": "unsupervised_learning",
             "confidence": 99,
             "last_verified": "2025-08-25T04:50:37.567857"
+        },
+        "self_built_algorithm_for_loop_1_to_5": {
+            "type": "for",
+            "value": "\n# A self-generated algorithm for a loop.\n# Discovered concept: الكود المقدم ليس كود بايثون، بل هو نص وصفي عن منصة Ergo blockchain، على الأرجح بتنسيق Markdown. ولذلك، لا يمكن تحليل مفهوم برمجي أساسي يمثله هذا النص.\nfor i in range(1, 5 + 1):\n    print(f\"العدد الحالي: {i}\")\n",
+            "linked_to": [],
+            "source": "unsupervised_learning",
+            "confidence": 99,
+            "last_verified": "2025-08-25T04:52:35.229997"
         }
     },
     "meta_rules": {
