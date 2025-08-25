@@ -33,6 +33,10 @@
         "loops": {
             "type": "loops",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "polymorphism": {
+            "type": "polymorphism",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
