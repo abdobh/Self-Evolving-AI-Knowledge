@@ -447,6 +447,10 @@
         "version_control": {
             "type": "version_control",
             "blueprint": "المفهوم: `A comprehensive set of guidelines and practices for developing high-quality, maintainable, and readable Python software.`"
+        },
+        "debugging": {
+            "type": "debugging",
+            "blueprint": "يبدو أن النص الذي قدمته ليس مقتطف كود بايثون، بل هو سجل تغييرات (Changelog) لمشروع برنامج يدعى `xboxdrv`.\n\nالمفهوم: `A chronological log of changes, fixes, and new features in a software's version history.`"
         }
     }
 }
