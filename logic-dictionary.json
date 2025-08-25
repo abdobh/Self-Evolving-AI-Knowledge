@@ -363,6 +363,10 @@
         "inheritance": {
             "type": "inheritance",
             "blueprint": "- المفهوم: `A programming paradigm that organizes code into reusable, self-contained objects by combining data and their associated functionality.`"
+        },
+        "conditionals": {
+            "type": "conditionals",
+            "blueprint": "برمجة قائمة على الكائنات لتعريف تدفق عمل (workflow) من خلال تجميع كائنات الإجراءات القابلة للتكوين."
         }
     }
 }
