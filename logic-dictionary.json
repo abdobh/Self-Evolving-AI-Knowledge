@@ -411,6 +411,10 @@
         "networking": {
             "type": "networking",
             "blueprint": "- الكود: (النص المقدم)\n- المفهوم: `A structured outline of open-source projects seeking mentored student contributions.`"
+        },
+        "hash_maps": {
+            "type": "hash_maps",
+            "blueprint": "**ملاحظة هامة:** الكود المقدم ليس بايثون بل هو **برنامج نصي لـ Bash (Bash script)**. سأقوم بتحليله على هذا الأساس.\n\n-   **الكود:** (تم توفيره أعلاه)\n-   **المفهوم:** `Automating the execution and testing of code examples across multiple programming languages based on their system availability.`"
         }
     }
 }
