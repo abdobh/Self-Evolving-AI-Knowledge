@@ -45,6 +45,10 @@
         "a_star_pathfinding": {
             "type": "a_star_pathfinding",
             "blueprint": "- المفهوم: `Simulating and interacting with physical objects and robotic systems in a virtual environment using a physics engine.`"
+        },
+        "data_types": {
+            "type": "data_types",
+            "blueprint": "Event-driven handling of external messages to generate automated responses through a platform API."
         }
     }
 }
