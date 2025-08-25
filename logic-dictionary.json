@@ -459,6 +459,10 @@
         "debugging": {
             "type": "debugging",
             "blueprint": "يبدو أن النص الذي قدمته ليس مقتطف كود بايثون، بل هو سجل تغييرات (Changelog) لمشروع برنامج يدعى `xboxdrv`.\n\nالمفهوم: `A chronological log of changes, fixes, and new features in a software's version history.`"
+        },
+        "classes": {
+            "type": "classes",
+            "blueprint": "المقتطف المقدم ليس مقتطف كود بايثون بالمعنى التقليدي (مثل دالة أو كلاس)، بل هو **سجل تغييرات (Changelog)** أو ملاحظات إصدار لمكتبة بايثون تسمى `fido2`.\n\n- المفهوم: `A chronological record of changes, new features, and bug fixes across a software project's versions.`"
         }
     }
 }
