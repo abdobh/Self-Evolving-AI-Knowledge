@@ -323,6 +323,10 @@
         "data_types": {
             "type": "data_types",
             "blueprint": "المفهوم: `Demonstrating and verifying code behavior using assertions within structured examples.`"
+        },
+        "a_star_pathfinding": {
+            "type": "a_star_pathfinding",
+            "blueprint": "المفهوم: `Programmatically building and interacting with a physics simulation environment, including rigid bodies, soft bodies، والروبوتات.`"
         }
     }
 }
