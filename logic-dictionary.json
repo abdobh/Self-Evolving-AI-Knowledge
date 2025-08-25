@@ -45,6 +45,10 @@
         "polymorphism": {
             "type": "polymorphism",
             "blueprint": "A concept for which a working code example was not found online."
+        },
+        "testing": {
+            "type": "testing",
+            "blueprint": "A concept for which a working code example was not found online."
         }
     }
 }
